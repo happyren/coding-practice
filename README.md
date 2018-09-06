@@ -4,7 +4,7 @@ This repository collects some side projects I think worth storing, if you feel l
 
 ## Network Programming
 
-- client-server-dictionary](https://github.com/happyren/coding-practice/tree/master/client-server-dictionary): a client-server architecture for dictionary. [
+- [client-server-dictionary](https://github.com/happyren/coding-practice/tree/master/client-server-dictionary): a client-server architecture for dictionary. [
 ## Useful Tools
 
-- Approximate-String-Match](https://github.com/happyren/coding-practice/tree/master/Approximate-String-Match): matching string for the best fit, containing GED and Damerau-Levenshtein Distance. [
+- [Approximate-String-Match](https://github.com/happyren/coding-practice/tree/master/Approximate-String-Match): matching string for the best fit, containing GED and Damerau-Levenshtein Distance. [
