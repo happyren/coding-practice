@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="451.0" prefWidth="660.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.java.client.Controller">
+   <children>
+      <MenuBar fx:id="menubar" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <menus>
+          <Menu fx:id="file" mnemonicParsing="false" text="Options">
+            <items>
+              <MenuItem fx:id="terminate" mnemonicParsing="false" onAction="#terminate" text="Terminate" />
+              <MenuItem fx:id="mods" mnemonicParsing="false" onAction="#mods" text="Add &amp; Delete" />
+            </items>
+          </Menu>
+        </menus>
+      </MenuBar>
+      <TextField fx:id="queryIn" layoutY="36.0" onKeyPressed="#submit" prefHeight="35.0" prefWidth="660.0" promptText="Type the word you want to search and Enter..." AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="36.0" />
+      <TextArea fx:id="printResult" editable="false" layoutY="64.0" wrapText="true" AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="85.0">
+         <font>
+            <Font name="Source Code Pro Medium" size="13.0" />
+         </font></TextArea>
+   </children>
+</AnchorPane>

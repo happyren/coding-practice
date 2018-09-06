@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="200.0" prefWidth="310.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.java.client.modResult">
+   <children>
+      <ImageView fitHeight="200.0" fitWidth="152.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@javaPV.jpg" />
+         </image>
+      </ImageView>
+      <Text layoutX="146.0" layoutY="57.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Operation" textAlignment="CENTER" wrappingWidth="146.13861089581042">
+         <font>
+            <Font name="Source Code Pro Light" size="19.0" />
+         </font>
+      </Text>
+      <Text fx:id="result" layoutX="160.0" layoutY="106.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="118.0">
+         <font>
+            <Font name="Source Code Pro Light" size="19.0" />
+         </font>
+      </Text>
+      <Text layoutX="135.0" layoutY="175.0" strokeType="OUTSIDE" strokeWidth="0.0" text="© 2018. All rights reserved." />
+   </children>
+</Pane>

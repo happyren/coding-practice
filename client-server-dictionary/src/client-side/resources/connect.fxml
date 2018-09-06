@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="root" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="276.0" prefWidth="465.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.java.client.connect">
+   <children>
+      <TextField fx:id="Host" layoutX="214.0" layoutY="41.0" prefHeight="28.0" prefWidth="223.0" promptText="hostname ****.****.****.****" />
+      <TextField fx:id="Port" layoutX="214.0" layoutY="111.0" onKeyPressed="#enter" prefHeight="28.0" prefWidth="223.0" promptText="port" />
+      <Button fx:id="connect" layoutX="277.0" layoutY="192.0" mnemonicParsing="false" onAction="#click" prefHeight="27.0" prefWidth="97.0" style="-fx-background-color: white; -fx-border-color: grey;" text="CONFIRM">
+         <font>
+            <Font name="Source Code Pro Semibold" size="13.0" />
+         </font>
+      </Button>
+      <ImageView disable="true" fitHeight="239.0" fitWidth="184.0" layoutX="14.0" layoutY="17.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../javaPV.jpg" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

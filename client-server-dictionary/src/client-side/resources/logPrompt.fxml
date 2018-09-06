@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="228.0" prefWidth="351.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.java.client.logPrompt">
+   <children>
+      <TextField fx:id="logName" layoutX="48.0" layoutY="44.0" prefHeight="35.0" prefWidth="256.0" promptText="Admin Username">
+         <font>
+            <Font name="Source Code Pro Medium" size="13.0" />
+         </font>
+      </TextField>
+      <PasswordField fx:id="logPass" layoutX="48.0" layoutY="97.0" onKeyPressed="#enter" prefHeight="35.0" prefWidth="256.0" promptText="Admin Password">
+         <font>
+            <Font name="Source Code Pro Medium" size="13.0" />
+         </font>
+      </PasswordField>
+      <Button fx:id="logBut" layoutX="57.0" layoutY="154.0" mnemonicParsing="false" onAction="#sendAuth" text="Administrator Authentication">
+         <font>
+            <Font name="Source Code Pro Semibold" size="13.0" />
+         </font></Button>
+   </children>
+</AnchorPane>
